@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+        Teste Live Server teste
+        <script>
+            var serie = 'The Big Bang Theory'
+            console.log('Global: ' , serie)
+
+            function escopoFuncao(){
+                console.log('funcao: ' , serie)
+            }
+
+            escopoFuncao()
+
+            if(true){
+                console.log('bloco if: ' , serie)
+            }
+
+            {
+                console.log('bloco anonimo: ' , serie)
+            }
+        </script>
+    </body>
+</html>

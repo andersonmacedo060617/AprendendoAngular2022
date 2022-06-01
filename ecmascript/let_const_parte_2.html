@@ -1,0 +1,32 @@
+<html>
+    <head>
+    </head>
+    <body>
+        Teste Live Server teste
+        <script>
+            
+            // console.log('Global: ' , serie)
+
+            function escopoFuncao(){
+                // console.log('funcao: ' , serie)
+                // console.log('funcao: ' , serie2)
+            }
+
+            escopoFuncao()
+
+            if(true){
+                // console.log('bloco if: ' , serie)
+            }
+
+            {
+                var serie = 'Friends'
+                let serie2 = 'Game of Thrones'
+                console.log('bloco anonimo: ' , serie)
+                console.log('bloco anonimo: ' , serie2)
+            }
+
+            console.log('Global: ' , serie)
+            console.log('Global: ' , serie2)
+        </script>
+    </body>
+</html>
